@@ -1,0 +1,37 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# enar2018rrpkg
+
+The goal of enar2018rrpkg is to collect scripts and 
+templates used for project infrastructure: setting
+up directory structures, adding common files, and
+the like. 
+
+## Example
+
+```{r example, eval=FALSE}
+
+## Not run
+
+populate_project()
+
+## This starts in a new project (with a .Rproj file in
+## the root folder) and adds commonly used folders if 
+## these don't already exist. By default, it adds folders
+## for R/, data/, and results/.
+
+```

@@ -1,0 +1,15 @@
+Package: enar2018pkg
+Type: Package
+Title: ENAR RR Tools
+Version: 0.1.0
+Author: Keith Baggerly
+Maintainer: Keith Baggerly <kabagg@gmail.com>
+Description: This package serves to collect scripts and 
+  templates for file and folder infrastructure and setup.
+  This includes both folder setup and file creation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+  here
+RoxygenNote: 6.0.1
